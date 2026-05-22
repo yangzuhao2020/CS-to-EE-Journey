@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "规划.md",
+                "file": "《电路》/《电路》--向量法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "规划"
+              "title": "《电路》--向量法"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1bf938e0b1fa1b4f",
@@ -182,6 +183,10 @@
   },
   "active": "a95f34118b637bb6",
   "lastOpenFiles": [
+    "《电路》/《电路》--运算放大器、电容、电感.md",
+    "《电路》/《电路》--向量法.md",
+    "《电路》/《电路》--基尔霍夫定律.md",
+    "规划.md",
     "《智能电网安全》.md"
   ]
 }
