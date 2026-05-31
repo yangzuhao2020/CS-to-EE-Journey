@@ -7,7 +7,11 @@
 ## 内容概览
 
 - `knowledge/`：课程笔记、研究方向规划、论文阅读和专题整理。
-- `knowledge/《电路》/`：电路基础笔记，包括预备知识、基尔霍夫定律、定理、相量法、运放、电容和电感等内容。
+  - `规划--方向确定.md`：研究方向定位与学习路线（AI × 电力电子 / 电力系统 / 电机 / 边缘 AI）。
+  - `《电力电子》入门.md`：特高压、光伏/风电/储能/制氢变流器、构网型变流器、直流变压器等概念入门。
+  - `《智能电网安全》学习.md`：输配电分层、电网通信（PLC、OPGW、无线）、AGC、调速器/激励器、VAR 补偿、HIL 仿真。
+  - `自然语言生成电路可行性分析.md`:LLM 驱动电路/仿真生成的方向性思考。
+- `knowledge/《电路》/`:电路基础笔记，包括预备知识、基尔霍夫定律、运放与电容电感、各定理、相量法、阻抗与导纳/正弦稳态电路。
 - `knowledge/《电力系统的稳态分析》/`：电力系统稳态分析相关笔记，包括预备知识和等值模型。
 - `knowledge/papers/`：论文和研究主题整理，例如电力系统综述、电-氢混合能源系统优化、DT-MPC 等。
 - `simulation/test/`：Simulink 测试模型，用于验证电力电子和整流电路的基础现象。
@@ -26,9 +30,8 @@
 
 `simulation/test/` 目录中包含若干 Simulink 模型：
 
-- `single_phase_diode_half_wave_rectifier.slx`：单相二极管半波整流仿真。
-- `single_phase_scr_half_wave_rectifier.slx`：单相 SCR 半波可控整流仿真。
-- `buck_12v_to_5v_100khz.slx`：12V 转 5V、100kHz Buck 变换器仿真。
+- `single_phase_diode_half_wave_rectifier.slx`：单相二极管半波整流仿真，纯阻性负载。
+- `single_phase_scr_half_wave_rectifier.slx`：单相 SCR 半波可控整流仿真，R-L 负载，可改变触发角观察延迟导通。
 
 这些模型主要用于观察输入电压、负载电压、负载电流、触发脉冲、平均值和 RMS 等基础波形特征。
 
