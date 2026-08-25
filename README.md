@@ -35,6 +35,10 @@
 
 这些模型主要用于观察输入电压、负载电压、负载电流、触发脉冲、平均值和 RMS 等基础波形特征。
 
+## 🎬 视频
+
+- [在线观看论文视频](https://yangzuhao2020.github.io/CS-to-EE-Journey/watch.html)
+
 ## 🛠️ 使用方式
 
 学习笔记可以直接作为 Markdown 文件阅读，也可以用 Obsidian 打开 `knowledge/` 目录进行双链笔记管理。

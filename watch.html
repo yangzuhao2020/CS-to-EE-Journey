@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>论文视频 | CS-to-EE-Journey</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #202124;
+      background: #f4f5f7;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+
+    header,
+    footer {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 22px 0 16px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.25rem, 3vw, 1.75rem);
+      font-weight: 650;
+      letter-spacing: 0;
+    }
+
+    main {
+      display: grid;
+      place-items: center;
+      width: 100%;
+      background: #111;
+    }
+
+    video {
+      display: block;
+      width: min(100%, 1280px);
+      max-height: calc(100vh - 152px);
+      aspect-ratio: 16 / 9;
+      background: #000;
+    }
+
+    footer {
+      padding: 14px 0 18px;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #0969da;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color-scheme: dark;
+        color: #f0f1f2;
+        background: #1c1d1f;
+      }
+
+      a {
+        color: #62a8f5;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>论文视频</h1>
+  </header>
+  <main>
+    <video controls playsinline preload="metadata">
+      <source src="video/论文2_视频.mp4" type="video/mp4">
+      当前浏览器不支持 HTML5 视频播放，请<a href="video/论文2_视频.mp4">打开视频文件</a>。
+    </video>
+  </main>
+  <footer>
+    <a href="https://github.com/yangzuhao2020/CS-to-EE-Journey">返回项目仓库</a>
+  </footer>
+</body>
+</html>
