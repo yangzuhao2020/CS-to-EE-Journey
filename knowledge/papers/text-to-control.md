@@ -40,3 +40,5 @@ LLM 工作流自动：
 - “OpenAI has introduced LangGraph.”
 -  论文核心：AI生成并运行自定义Python微电网调度仿真。并不是AI连接专业电力仿真软件，自动完成高保真的数字仿真。
 - “Text-to-Control”听起来像 AI 直接控制真实电网，但实际完成的是“自然语言 → Python调度模型与RL代码 → 代码级仿真”
+- IEEE 33节点系统：4个微电网，生成集中式PPO调度算法；
+- IEEE 123节点系统：8个微电网，生成区域化多智能体PPO算法。
